@@ -31,7 +31,7 @@ YYYY-MM-DD.N_<short-kebab-slug>.md
 1. **Compute the filename:** today's date + next free `N` (scan this folder) + a slug
 2. **Gather state:** read the relevant trackers, dashboards, and this session's actual work
 3. **Fill the template** below — the **▶ Next** block comes first, concrete enough to start in 30 seconds
-4. **Write** `Current_Status/YYYY-MM-DD.N_<slug>.md`
+4. **Write** `Current_Status/YYYY-MM/DD/YYYY-MM-DD.N_<slug>.md`
 5. **Reconcile:** make sure live trackers agree with the snapshot
 6. **Report** the filename + a one-line summary
 7. **Global Sync:** You MUST immediately execute `python D:\Context-Matrix\batch_tools\generate_timeline.py` (if it exists) to instantly update the Global Timeline Feed. Do not skip this step!
